@@ -12,12 +12,12 @@ header h1,h2
 
 nav {
     border: 2px solid;
-    
-   
+    display: inline-block;
+    text-decoration: none;
 }
 
-a {
-    display:inline-block;
+li {
+   
     text-decoration: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
@@ -29,6 +29,7 @@ iv p::first-letter {
 }
 
 footer {
+
     display: inline-block;
     background-color: darkgreen;
    
