@@ -6,23 +6,32 @@
 
 header h1,h2
 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
 }
 
-nav{
-    border: 2px solid red;
+nav {
+    border: 2px solid grey;
+    justify-content: center, space-around;
 }
 
 * li {
     display:inline-block;
-    text-decoration-line: none;
+    text-decoration: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
-p::first-letter {
+div p::first-letter {
     font-size: 150%;
-    color: royalblue;
+    color: black;
+}
+
+footer {
+    display: inline-block;
+}
+
+p {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 
