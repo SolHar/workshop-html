@@ -11,19 +11,25 @@ header h1,h2
 }
 
 nav {
-    border: 2px solid grey;
-    justify-content: center, space-around;
+    border: 2px solid;
+    justify-content: center;
+   
 }
 
 * li {
     display:inline-block;
     text-decoration: none;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+a {
+    justify-content: center;
 }
 
 div p::first-letter {
     font-size: 150%;
-    color: black;
+    color: aqua;
 }
 
 footer {
@@ -31,7 +37,9 @@ footer {
 }
 
 p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
 }
 
 
